@@ -11,8 +11,11 @@ const changeView = (route) => {
     case '#/adios':{ 
         return divRoot.appendChild(components.adios()); 
     }
+    case '#/registro':{ 
+      return divRoot.appendChild(components.registro()); 
+  }
     default:{ 
-        return divRoot.appendChild(components.home()); 
+        return divRoot.appendChild(components.registro()); 
     }
 		// break;
   }

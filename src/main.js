@@ -1,5 +1,4 @@
 import { changeView } from './view-controller/router.js';
-// import "./lib/configfirebase.js"
 
 const init = () => {
   changeView(window.location.hash);
